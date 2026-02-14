@@ -13,6 +13,7 @@ composition produces genuine generative effects.
 from fastmcp import FastMCP
 from typing import Dict, List, Optional, Literal, Tuple
 import yaml
+import math
 from pathlib import Path
 import json
 
@@ -1873,7 +1874,7 @@ def _compose_real_domain_results(domain_results: List[Dict]) -> Dict:
 # microscopy, catastrophe theory, diatom morphology, etc.
 # ============================================================================
 
-import math
+
 
 # --- Normalized Parameter Space [0.0, 1.0] ---
 
